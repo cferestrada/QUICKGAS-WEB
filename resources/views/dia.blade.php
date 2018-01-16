@@ -48,7 +48,8 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="consola.php">
+                <li class="sidebar-brand">
+                    <a href="/">
                         <img src="images/bg-header.png" class="logo" alt="">
                     </a>
                 </li>

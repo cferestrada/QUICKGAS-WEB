@@ -22,10 +22,10 @@ Chart.defaults.global.title.fontColor = '#666';
 let linechart = new Chart(CHART, {
 	type: 'line',
 	data: {
-		labels: ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"],
+		labels: ["Ayer","Hoy"],
 		datasets:[
 					{
-						label:"HOLA",
+						label:"Tanque",
 						fill: false,
 						lineTension: 0.1,
 						backgroundColor: "rgba(75,192,192,0.4)",
@@ -43,11 +43,11 @@ let linechart = new Chart(CHART, {
 						pointHoverBorderWidth: 2,
 						pointRadius: 1,
 						pointHitRadius: 10,
-						data:[65,59,80,81,56,55,40],
+						data:[65,59],
 					},
 
 					{
-						label:"HOLA2",
+						label:"Estacionario",
 						fill: true,
 						lineTension: 0.2,
 						backgroundColor: "rgba(75,75,192,0.4)",
@@ -65,7 +65,7 @@ let linechart = new Chart(CHART, {
 						pointHoverBorderWidth: 2,
 						pointRadius: 4,
 						pointHitRadius: 10,
-						data:[100,39,100,4,56,55,40],
+						data:[84,100],
 					}
 				]
 		},

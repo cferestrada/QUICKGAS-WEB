@@ -3,6 +3,15 @@
 
 <head>
 
+    <!--barra-->
+    <link rel="shortcut icon" href="/images/ico/favicon.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/images/ico/apple-touch-icon-57-precomposed.png">
+
+<!--estilos-->
 <link href="css/app.css" rel="stylesheet" type="text/css">
 <link href="css/simple-sidebar.css" rel="stylesheet" type="text/css">
 <link href="css/template.css" rel="stylesheet" type="text/css">
@@ -44,8 +53,8 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="consola.php">
-                        <img src="images/bg-header.png" class="logo" alt="">
+                    <a href="/">
+                        <img src="/images/bg-header.png" class="logo" alt="">
                     </a>
                 </li>
                 
@@ -69,6 +78,9 @@
                 </li>
                 <li>
                     <a href="/logOff">Cerrar Sesión</a>
+                </li>
+                <li>
+                    <a href="/configuracion">Configuracion</a>
                 </li>
             </ul>
         </div>

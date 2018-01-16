@@ -2471,9 +2471,9 @@ fieldset[disabled] a.btn {
 .btn-secondary:active,
 .btn-secondary.active,
 .show > .btn-secondary.dropdown-toggle {
-  background-color: #b90492;
+  background-color: #b9049266;
   background-image: none;
-  border-color: #b90492;
+  border-color: #b9049266;
 }
 
 .btn-success {
