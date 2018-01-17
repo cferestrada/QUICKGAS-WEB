@@ -27,8 +27,8 @@ Route::get('mes', function () {
     return view('mes');
 });
 
-Route::get('producto', function () {
-    return view('producto');
+Route::get('productos', function () {
+    return view('productos');
 });
 
 Route::get('empleados', function () {

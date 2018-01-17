@@ -16,6 +16,7 @@
 <link href="css/template.css" rel="stylesheet" type="text/css">
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css">
 <link href="css/unslider.css" rel="stylesheet" type="text/css">
 
@@ -94,27 +95,31 @@
                 <section id="nino-story">
                         <!--consulta select-->
                         <div class="container">
-                            <h2 class="nino-sectionHeading" style="margin-top: -5%;">Vehiculos Activos</h2>
+                            <h2 class="nino-sectionHeading" style="margin-top: -5%;">Datos De Sucursal</h2>
 
-                            <table class="table table-hover">
-                            <tbody>
-                              <tr>
-                                <th>Matricula</th>
-                                <td>MDF548</td>
-                              </tr>
-                              <tr>
-                                <th>Tipo de producto</th>
-                                <td>Tanque</td>
-                              </tr>
-                              
-                              <tr>
-                              <th>Capacidad</th>
-                              <td>5000 LT</td>
-                              </tr>
+                          <div class="row"  style="margin-top: 10%;">
+                            <div class="col-lg-12">
+                                <table class="table table-hover">
+                                    <tbody>
+                                    <tr>
+                                        <th>Matricula</th>
+                                        <td>MDF548</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th>Tipo de producto</th>
+                                        <td>Tanque</td>
+                                    </tr>
 
-                            </tbody>
-                          </table>
+                                    <tr>
+                                    <th>Capacidad</th>
+                                    <td>5000 LT</td>
+                                    </tr>
 
+                                    </tbody>
+                                </table>
+                            </div>
+                          </div>
                           <div class="row">
                               <div class="col-lg-6 col-lg-offset-10">
                                 <td><button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target=".bd-example-modal-lg">Editar</button></td>
@@ -129,68 +134,74 @@
         <!-- /#page-content-wrapper -->
 
     </div>
-    <!--Modal -->
-
-    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Vehiculo #</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-
-          <div class="modal-body">
-            <form>
-              <div class="row">
-                  <div class="col-lg-6">
-                      <div class="form-group">
-                        <label for="recipient-name" class="col-form-label">Matricula:</label>
-                        <input type="text" class="form-control" id="recipient-name">
-                      </div>
-                      <div class="form-group">
-                        <label for="recipient-name" class="col-form-label">Tipo de producto:</label>
-                        <input type="text" class="form-control" id="recipient-name">
-                      </div>
-                      <div class="form-group">
-                        <label for="recipient-name" class="col-form-label">Ultimo Chofer:</label>
-                        <input type="text" class="form-control" id="recipient-name" disabled="true">
-                      </div>
-                      <div class="form-group">
-                        <label for="recipient-name" class="col-form-label">Capacidad:</label>
-                        <input type="text" class="form-control" id="recipient-name">
-                      </div>
-                  </div>
-                  <div class="col-lg-6">
-                      <div class="form-group">
-                        <label for="ejemplo_archivo_1">Cambiar imagen:</label>
-                        <input type="file" id="ejemplo_archivo_1">
-                      </div>
-                      <div class="form-group">
-                        <img src="images/nieto2.png" alt="">
-                      </div>
-                  </div>
-                  
-              </div>
-              <div class="form-group">
-                <label for="ejemplo_archivo_1">Adjuntar un archivo</label>
-                <input type="file" id="ejemplo_archivo_1">
-                <p class="help-block">Documentacion necesaria para la aprobacion del trabajador.</p>
-              </div>
-            </form>
-          </div>
-
-          <div class="modal-footer">
-            <button type="button" class="btn btn-off" data-dismiss="modal">Cerrar</button>
-            <button type="button" class="btn btn-warning">Guardar</button>
-          </div>
-
-
+               <!-- Modal -->
+<div class="modal bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLongTitle">Usuario</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+          </button>
         </div>
+
+        <div class="modal-body">
+
+        <br>
+        <br>
+          <form>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label">Nombre:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label">Fecha de nacimiento:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label">Telefono:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label">Correo:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="form-group">
+                      <label for="ejemplo_archivo_1">Cambiar imagen:</label>
+                      <input type="file" id="ejemplo_archivo_1">
+                    </div>
+                    <div class="form-group">
+                      <img src="images/testimonial/img-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Direccion:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="ejemplo_archivo_1">Adjuntar un archivo</label>
+              <input type="file" id="ejemplo_archivo_1">
+              <p class="help-block">Documentacion necesaria para la aprobacion del trabajador.</p>
+            </div>
+          </form>
+        </div>
+
+        <div class="modal-footer">
+              <p class="help-block">Los cambios guardados estan sujetos a aprobacion.</p>
+          <button type="button" class="btn btn-off" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-warning">Guardar</button>
+        </div>
+
+
       </div>
     </div>
-    <!-- /#wrapper -->
+  </div>
+  <!-- /#wrapper -->
    
     <!-- Menu-->
     <script>

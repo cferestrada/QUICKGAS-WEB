@@ -34,10 +34,6 @@
     <meta name="author" content="">
 
     <title>Quick Gas | Administrador</title>
-
-
-        
-
 </head>
 
 <style>
@@ -91,7 +87,7 @@
             <div id="page-content-wrapper">
                 <div class="container-fluid">
                     <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
-                </div>
+                </div><br>
 
                 <!--sub-menu-->
                    
@@ -110,18 +106,16 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html">Quick Gas</a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="nino-menuItem pull-right">
                         <div class="collapse navbar-collapse pull-left" id="nino-navbar-collapse">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="#nino-header">Inicio <span class="sr-only">(current)</span></a></li>
-                                <li><a href="#nino-story">Consultar</a></li>
-                                <li><a href="#nino-portfolio">Reportes</a></li>
+                               <!-- <li class="active"><a href="#nino-header">Inicio <span class="sr-only">(current)</span></a></li>-->
+                                
                                 <!--<li><a href="#nino-ourTeam">Vehiculos</a></li>
                                 <li><a href="#nino-portio">Estadisticas</a></li>
-                                <li><a href="#nino-latestBlog">Noticias</a></li>-->
+                                <li><a href="#nino-latestBlog">Noticias</a></li>
                                   <li class="dropdown">
                                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Configuracion
                                     <span class="caret"></span></a>
@@ -134,7 +128,7 @@
                                         </a>
 
                                       <li><a href="Login/logout.php">Cerrar Sesion</a></li>
-                                        
+                                        -->
                                     </ul>
                                 </li>
                             </ul>
@@ -148,6 +142,8 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <h2 class="nino-sectionHeading">
+                        
+                       <!-- <a class="navbar-brand" href="" style="color: black">Quick Gas</a>-->
 
 <!--cambiar bienvenido por @-->
                             <span class="nino-subHeading">BIENVENIDO</span>
@@ -216,39 +212,7 @@
     ================================================== -->
     <footer id="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="colInfo">
-                        <div class="footerLogo">
-                            <a href="#" >Quick Gas</a>  
-                        </div>
-
-                    </div>
-                </div> 
-
-                <div class="col-md-4">
-                    <div class="colInfo">
-                        <div class="nino-followUs">
-                            <div class="totalFollow"><span>15k</span> Seguidores</div>
-                        </div>
-                    </div>
-                </div> 
-
-                <div class="col-md-4">
-                    <div class="colInfo">
-                        
-                        <div class="nino-followUs">
-                            <div class="socialNetwork">
-                                <span class="text">Siguenos en: </span>
-                                <a href="" class="nino-icon"><i class="mdi mdi-facebook"></i></a>
-                            </div>
-                        </div>
-                        
-                    </div>
-
-                    
-                </div>              
-            </div>
+          
 
             <div class="nino-copyright">Copyright &copy; 2017 <a target="_blank" href="" title=""></a>. All Rights Reserved. <br/>  <a href="">EMI</a></div>
         </div>

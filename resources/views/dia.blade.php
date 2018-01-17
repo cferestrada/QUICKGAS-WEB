@@ -8,6 +8,7 @@
 <link href="css/template.css" rel="stylesheet" type="text/css">
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css">
 <link href="css/unslider.css" rel="stylesheet" type="text/css">
 

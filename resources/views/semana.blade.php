@@ -8,6 +8,7 @@
 <link href="css/template.css" rel="stylesheet" type="text/css">
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css">
 <link href="css/unslider.css" rel="stylesheet" type="text/css">
 
@@ -47,6 +48,7 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
+                <li class="sidebar-brand">
                 <li class="sidebar-brand">
                     <a href="/">
                         <img src="images/bg-header.png" class="logo" alt="">

@@ -1,7 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ app()->getLocale() }}">
 
 <head>
+
+<link href="css/app.css" rel="stylesheet" type="text/css">
+<link href="css/simple-sidebar.css" rel="stylesheet" type="text/css">
+<link href="css/template.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css">
+<link href="css/unslider.css" rel="stylesheet" type="text/css">
+
+<script src="{{asset('js/app.js')}}"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,23 +28,10 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 
-    <!-- css -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" />
-    <link rel="stylesheet" type="text/css" href="css/unslider.css" />
-    <link rel="stylesheet" type="text/css" href="css/template.css" />
-    <!-- fecha -->
-    <script src="ajax.js"></script>
+   
     <!-- fontawesome -->
     <script src="https://use.fontawesome.com/4cf6e33259.js"></script>
 
-    <!-- Custom styles for this template -->
-    <link href="css/sideBar/simple-sidebar.css" rel="stylesheet">
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
 </head>
@@ -50,6 +48,7 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
+                <li class="sidebar-brand">
                 <li class="sidebar-brand">
                     <a href="/">
                         <img src="images/bg-header.png" class="logo" alt="">
@@ -81,7 +80,7 @@
         </div>
         <!-- /#sidebar-wrapper -->
 
-        <!-- consola -->
+       <!-- consola -->
         <div id="consola">
             <div id="page-content-wrapper">
                 <div class="container-fluid">
@@ -105,24 +104,16 @@
     </div>
     <!-- /#wrapper -->
 
-    <!--chart-->
+     <!--chart-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.3/Chart.min.js"></script>
-
-    <!--    <script type="text/javascript" src="js/ajax.js"></script>   -->
 
     <script type="text/javascript" src="js/lineas.js"></script>  
     <script type="text/javascript" src="js/barras.js"></script>   
     <script type="text/javascript" src="js/horizontalBar.js"></script>   
     <script type="text/javascript" src="js/radar.js"></script>   
     <script type="text/javascript" src="js/polarArea.js"></script>   
-    <script type="text/javascript" src="js/pie.js"></script>   
+    <script type="text/javascript" src="js/pie.js"></script>     
 
-
-
-    
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Menu-->
     <script>
