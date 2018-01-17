@@ -41,7 +41,7 @@
         height: 35px;
     }
 </style>
-<body>
+<body style="background: url(../images/bg-pattern.png) center center / cover; background-color:grey;" >
 
     <div id="wrapper">
 
@@ -98,42 +98,8 @@
         <div id="nino-headerInner">                 
             <nav id="nino-navbar" class="navbar navbar-default" role="navigation">
                 <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nino-navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="nino-menuItem pull-right">
-                        <div class="collapse navbar-collapse pull-left" id="nino-navbar-collapse">
-                            <ul class="nav navbar-nav">
-                               <!-- <li class="active"><a href="#nino-header">Inicio <span class="sr-only">(current)</span></a></li>-->
-                                
-                                <!--<li><a href="#nino-ourTeam">Vehiculos</a></li>
-                                <li><a href="#nino-portio">Estadisticas</a></li>
-                                <li><a href="#nino-latestBlog">Noticias</a></li>
-                                  <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Configuracion
-                                    <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <a href="Login/logout.php">
-                                            <span class="fa-stack fa-lg">
-                                                <i class="fa fa-cog fa-spin fa-stack-1x"></i>
-                                            </span>
-                                                Mi Cuenta<br>
-                                        </a>
-
-                                      <li><a href="Login/logout.php">Cerrar Sesion</a></li>
-                                        -->
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div><!-- /.navbar-collapse -->
-                    </div>
+              
                 </div><!-- /.container-fluid -->
             </nav>
              
@@ -208,16 +174,7 @@
         </div>
     </header><!--/#header-->
 
-    <!-- Footer
-    ================================================== -->
-    <footer id="footer">
-        <div class="container">
-          
-
-            <div class="nino-copyright">Copyright &copy; 2017 <a target="_blank" href="" title=""></a>. All Rights Reserved. <br/>  <a href="">EMI</a></div>
-        </div>
-    </footer><!--/#footer-->
-
+    
 
                 <!--Fin-->
             </div>
@@ -235,18 +192,6 @@
     ================================================== -->
     <a href="#" id="nino-scrollToTop">Ir al inicio</a>
     
-    <script type="text/javascript" src="js/jquery.min.js"></script> 
-    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-    
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-    <script type="text/javascript" src="js/modernizr.custom.97074.js"></script>
-    <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script type="text/javascript" src="js/unslider-min.js"></script>
-    <script type="text/javascript" src="js/template.js"></script>
-
-
-    <script type="text/javascript" src="js/ajax.js"></script>   
 
     <!-- Menu-->
     <script>

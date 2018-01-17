@@ -90,41 +90,55 @@
                 <div class="container-fluid">
                     <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
                 </div>
-
+<style>
+.margen{
+    margin-top:5%;
+}
+.derecha{
+    margin-right:5%;
+}
+</style>
                 <!--sub-menu-->
                 <section id="nino-story">
                         <!--consulta select-->
                         <div class="container">
                             <h2 class="nino-sectionHeading" style="margin-top: -5%;">Datos De Sucursal</h2>
-
+                            
                           <div class="row"  style="margin-top: 10%;">
-                            <div class="col-lg-12">
+                          
+                          <div class="col-lg-3 derecha" style="background-color:black;">
+                                <img src="images/testimonial/img-1.jpg" alt="">
+                            </div>
+
+
+                            <div class="col-lg-6" style="background-color:;">
                                 <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Nombre De Empresa</th>
+                                        </tr>
+                                    </thead>
                                     <tbody>
-                                    <tr>
-                                        <th>Matricula</th>
-                                        <td>MDF548</td>
-                                    </tr>
-                                    
-                                    <tr>
-                                        <th>Tipo de producto</th>
-                                        <td>Tanque</td>
-                                    </tr>
+                                        <tr>
+                                            <th>Administrador</th>
+                                            <td></td>
+                                        </tr>
 
-                                    <tr>
-                                    <th>Capacidad</th>
-                                    <td>5000 LT</td>
-                                    </tr>
-
+                                        <tr>
+                                        <th>Capacidad</th>
+                                        <td>5000 LT</td>
+                                        </tr>
                                     </tbody>
+
+                                    <tfoot>
+                                        <td><button type="button" class="btn btn-warning btn-sm margen" data-toggle="modal" data-target=".bd-example-modal-lg">Editar</button></td>
+                                    </tfoot>
+
                                 </table>
                             </div>
+                        
                           </div>
-                          <div class="row">
-                              <div class="col-lg-6 col-lg-offset-10">
-                                <td><button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target=".bd-example-modal-lg">Editar</button></td>
-                              </div>
-                          </div>
+                        
 
 
 

@@ -93,8 +93,15 @@
                         <div class="container">
                             <h2 class="nino-sectionHeading" style="margin-top: -5%;">Ventas Del Día</h2>
 
-                    <canvas class="" id="linechart"></canvas>
-                    <canvas class="" id="barchart"></canvas>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <canvas class="" id="line"></canvas>
+                                </div>
+                                <div class="col-lg-6">
+                                    <canvas class="" id="diaBarra"></canvas>
+                                </div>
+                            </div>
+                            
 
                 <!--Fin-->
             </div>
@@ -107,8 +114,8 @@
      <!--chart-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.3/Chart.min.js"></script>
 
-    <script type="text/javascript" src="js/lineas.js"></script>  
-    <script type="text/javascript" src="js/barras.js"></script>   
+    <script type="text/javascript" src="js/dia.js"></script>  
+    <script type="text/javascript" src="js/diaBarra.js"></script>   
     <script type="text/javascript" src="js/horizontalBar.js"></script>   
     <script type="text/javascript" src="js/radar.js"></script>   
     <script type="text/javascript" src="js/polarArea.js"></script>   

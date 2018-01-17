@@ -93,8 +93,14 @@
                         <div class="container">
                             <h2 class="nino-sectionHeading" style="margin-top: -5%;">Ventas Por Producto</h2>
 
-                    <canvas id="radar"></canvas>
-                    <canvas id="barchart"></canvas>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                <canvas class="" id="radar"></canvas>
+                                </div>
+                                <div class="col-lg-6">
+                                    <canvas class="" id="barchart"></canvas>
+                                </div>
+                            </div>
 
                 <!--Fin-->
             </div>

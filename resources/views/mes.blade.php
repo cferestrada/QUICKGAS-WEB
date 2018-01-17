@@ -93,9 +93,14 @@
                         <div class="container">
                             <h2 class="nino-sectionHeading" style="margin-top: -5%;">Ventas Del Mes</h2>
 
-                    <canvas class="" id="linechart"></canvas>
-                    <canvas class="" id="barchart"></canvas>
-
+                            <div class="row">
+                                <div class="col-lg-6">
+                                <canvas class="" id="linechart"></canvas>
+                                </div>
+                                <div class="col-lg-6">
+                                    <canvas class="" id="barchart"></canvas>
+                                </div>
+                            </div>
                 <!--Fin-->
             </div>
         </div>
