@@ -40,8 +40,15 @@
     .logo{
         height: 35px;
     }
+    .flotante {
+    display:scroll;
+        position:fixed;
+        top:0.8%;
+        right:2%;
+}
 </style>
 <body>
+
 
     <div id="wrapper">
 
@@ -84,7 +91,7 @@
         <div id="consola">
             <div id="page-content-wrapper">
                 <div class="container-fluid">
-                    <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                    <a href="#menu-toggle" class="btn btn-secondary flotante" id="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
                 </div>
 
                 <!--sub-menu-->
