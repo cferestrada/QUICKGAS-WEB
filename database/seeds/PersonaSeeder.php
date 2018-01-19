@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Persona;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -12,11 +13,12 @@ class PersonaSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('persona')->insert([
+        Persona::create([
             'apePat'=> 'Sanchez',
             'apeMat'=> 'Gonzalez',
             'nombres'=> 'Juan Francisco Jose',
             'fechaNacimiento'=> '1958-01-26',
-        ]); 
+        ]);
+
     }
 }

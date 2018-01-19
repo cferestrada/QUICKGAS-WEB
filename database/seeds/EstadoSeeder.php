@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Estado;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -12,13 +13,10 @@ class EstadoSeeder extends Seeder
      */
     public function run()
     {
-
-
-
-
-        DB::table('estado')->insert([
+        Estado::create([
             'estado'=> 'Queretaro',
             'idPais'=> DB::table('pais') ->wherePais('Mexico')->value('idPais')
-        ]); 
+        ]);
+
     }
 }

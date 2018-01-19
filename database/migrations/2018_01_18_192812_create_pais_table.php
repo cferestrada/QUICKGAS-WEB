@@ -18,7 +18,7 @@ class CreatePaisTable extends Migration
             $table->string('pais', 30);
             $table->string('img', 40);
             
-            $table->timestamps();
+           // $table->timestamps();   //eliminar hora in insercion
         });
     }
 

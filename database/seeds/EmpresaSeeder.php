@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Empresa;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -12,9 +13,9 @@ class EmpresaSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('empresa')->insert([
+        Empresa::create([
             'nombre'=> 'QuickGas',
-        ]); 
-        
+        ]);
+
     }
 }

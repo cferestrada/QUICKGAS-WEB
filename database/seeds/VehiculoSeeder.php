@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Vehiculo;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -16,8 +17,8 @@ class VehiculoSeeder extends Seeder
         $ProductoId = DB::table('tipoproducto')
         ->where('tipoProducto', 'Tanque')
         ->value('idTipoProducto');
-
-        DB::table('vehiculo')->insert([
+    
+        Vehiculo::create([
             'marca'=> 'Ford',
             'modelo'=> 'AS57',
             'capacidad'=> '5000.5',
@@ -26,5 +27,7 @@ class VehiculoSeeder extends Seeder
             'idTrabajador'=> DB::table('trabajador') ->whereImg('URLFotoDeEmpleado')->value('idTrabajador'),
             'idTipoProducto'=> $ProductoId
         ]); 
+
+
     }
 }

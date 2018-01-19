@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Pais;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -12,9 +13,10 @@ class PaisSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('pais')->insert([
+        Pais::create([
             'pais'=> 'Mexico',
             'img'=> 'Bandera!!',
-        ]); 
+        ]);
+
     }
 }
