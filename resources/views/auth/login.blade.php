@@ -18,7 +18,7 @@
   <style type="text/css">
 
     .image {
-      margin-top: -100px;
+      margin-top: 20px;
     }
     .column {
       max-width: 450px;
@@ -64,14 +64,11 @@
   </script>
 </head>
 <body>
-
+<br> <br>
 <div class="ui middle aligned center aligned grid">
   <div class="column">
     <h2 class="ui teal image header">
-      <img src="assets/images/logo.png" class="image">
-      <div class="content">
-        Log-in to your account
-      </div>
+      <img src="images/QG.png" class=" ui image medium">
     </h2>
     <form class="ui large form">
       <div class="ui stacked segment">
