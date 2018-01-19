@@ -14,6 +14,7 @@ class PaisSeeder extends Seeder
     {
         DB::table('pais')->insert([
             'pais'=> 'Mexico',
+            'img'=> 'Bandera!!',
         ]); 
     }
 }

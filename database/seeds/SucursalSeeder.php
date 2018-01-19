@@ -23,8 +23,8 @@ class SucursalSeeder extends Seeder
                    'numInt'=> '50A',
                    'numExt'=> '150',
                    'codigoPostal'=> '76150',
-                   'idMunicipio'=> '',
-                   'idEmpresa'=> '',
+                   'idMunicipio'=> DB::table('municipio') ->whereMunicipio('Queretaro')->value('idMunicipio'),
+                   'idEmpresa'=> DB::table('empresa') ->whereNombre('QuickGas')->value('idEmpresa')
                ]); 
         //
     }

@@ -15,18 +15,20 @@ class CreateTrabajadorTable extends Migration
     {
         Schema::create('trabajador', function (Blueprint $table) {
             $table->increments('idTrabajador');
-            $table->unsignedInteger('idEmpresa');
 
             $table->string('estatus', 25);
-            $table->string('img', 50);         
+            $table->string('img', 50)->nullable();         
             $table->string('correoElectronico', 50);
-            $table->string('contrasenia', 50);
+            $table->string('contrasenia', 200);
             $table->string('telefono', 13);
             $table->string('calle', 30);
             $table->string('colonia', 30);
             $table->string('numInt', 5);
             $table->string('numExt', 5);
             $table->string('codigoPostal', 5);
+
+            $table->unsignedInteger('idEmpresa');
+            $table->foreign('idEmpresa')->references('idEmpresa')->on('empresa');
 
             $table->unsignedInteger('idPersona');
             $table->foreign('idPersona')->references('idPersona')->on('persona');

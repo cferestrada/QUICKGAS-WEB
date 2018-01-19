@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class TipoProductoSeeder extends Seeder
 {
@@ -11,6 +12,11 @@ class TipoProductoSeeder extends Seeder
      */
     public function run()
     {
-        //
+        DB::table('tipoproducto')->insert([
+            'tipoProducto'=> 'Tanque',
+        ]); 
+        DB::table('tipoproducto')->insert([
+            'tipoProducto'=> 'Estacionario',
+        ]); 
     }
 }
